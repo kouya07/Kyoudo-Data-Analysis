@@ -13,10 +13,10 @@ Private Sub Worksheet_Change(ByVal Target As Range)
         Exit Sub
 
     ElseIf Target = "a" Then
-        Target = "◯›"
+        Target = "◯"
                 
     ElseIf Target = "s" Then
-        Target = "×~"
+        Target = "×"
 
     End If
 
